@@ -930,14 +930,16 @@ section {
   text-align: justify;
   border: 1px solid #e2eefd;
   padding: 20px 20px;
+  margin-bottom: 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+  width: 100%;
 }
 
 .services .icon-box .icon {
   margin: 0 auto;
-  width: 64px;
-  height: 64px;
+  width: 180px;
+  height: 180px;
   background: #f1f6fe;
   border-radius: 4px;
   border: 1px solid #deebfd;
@@ -951,6 +953,14 @@ section {
 .services .icon-box .icon i {
   color: #3b8af2;
   font-size: 28px;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box .icon img{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   transition: ease-in-out 0.3s;
 }
 
@@ -972,6 +982,14 @@ section {
   font-weight: 600;
   margin-bottom: 0;
   text-align: center;
+}
+
+#letter {
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-align: justify;
 }
 
 .services .icon-box:hover {
@@ -1391,8 +1409,8 @@ section {
 }
 
 .pricing .box h4 {
-  font-size: 36px;
-  color: #106eea;
+  font-size: 30px;
+  color: #444444;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1439,6 +1457,14 @@ section {
   padding: 20px 15px;
   background: #f8f8f8;
   text-align: center;
+}
+
+.pricing  a{
+  color: #444444;
+}
+
+.pricing a:hover{
+  color: #106eea;
 }
 
 .pricing .btn-buy {
